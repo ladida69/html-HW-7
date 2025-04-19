@@ -20,13 +20,13 @@
 
   <body>
     <header class="header">
-      <div class="container header-main-nav">
+      <div class="container main-nav">
         <nav class="site-nav">
           <a class="logo" href="index.html"><span>Web</span>Studio</a>
           <ul class="nav-list">
-            <li><a href="./index.html" class="nav-list__link"> Студія</a></li>
-            <li><a href="./portfolio.html" class="nav-list__link">Портфоліо</a></li>
-            <li><a href="" class="nav-list__link">Контакти</a></li>
+            <li><a href="./index.html" class="link"> Студія</a></li>
+            <li><a href="./portfolio.html" class="link">Портфоліо</a></li>
+            <li><a href="" class="link">Контакти</a></li>
           </ul>
         </nav>
         <ul class="contacts-list">
@@ -57,6 +57,8 @@
 
       <section class="section">
         <div class="container">
+          <!-- Прихований заголовок -->
+          <!-- <h2>Наші переваги</h2> -->
           <ul class="features-list">
             <li class="list-item">
               <h2 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h2>
@@ -118,7 +120,7 @@
             <li class="team-man">
               <img src="./images/ihor.jpg" alt="ihor" width="270" height="260" />
               <div class="self-introduction">
-                <h3 class="team-man__name">Ігор Дем'яненко</h3>
+                <h3>Ігор Дем'яненко</h3>
                 <p>Product Designer</p>
                 <ul class="socials">
                   <li>
@@ -155,7 +157,7 @@
             <li class="team-man">
               <img src="./images/myhailo.jpg" alt="myhailo" width="270" height="260" />
               <div class="self-introduction">
-                <h3 class="team-man__name">Михайло Єрмаков</h3>
+                <h3>Михайло Єрмаков</h3>
                 <p>UI Designer</p>
                 <ul class="socials">
                   <li>
@@ -193,7 +195,7 @@
             <li class="team-man">
               <img src="./images/mykola.jpg" alt="mykola" width="270" height="260" />
               <div class="self-introduction">
-                <h3 class="team-man__name">Микола Тарасов</h3>
+                <h3>Микола Тарасов</h3>
                 <p>Marketing</p>
                 <ul class="socials">
                   <li>
@@ -231,7 +233,7 @@
             <li class="team-man">
               <img src="./images/olha.jpg" alt="olha" width="270" height="260" />
               <div class="self-introduction">
-                <h3 class="team-man__name">Ольга Рєпіна</h3>
+                <h3>Ольга Рєпіна</h3>
                 <p>Frontend Developer</p>
                 <ul class="socials">
                   <li>
@@ -369,11 +371,11 @@
           <div class="subscribe-us-container">
             <h2 class="subscribe-title">Підпишіться на розсилку</h2>
             <label class="subscribe" for="newsletter">
-              <input class="subscribe-us" type="mail" name="newsletter" placeholder="E-mail"
+              <input class="subscribe-us" type="email" name="newsletter" placeholder="E-mail"
             /></label>
             <button class="subscribe-us-btn">
               Підписатися
-              <svg class="subscribe-svg">
+              <svg class="subscribe-svg" widht="24" height="24">
                 <use href="./images/modal-icns.svg#icon-send"></use>
               </svg>
             </button>
