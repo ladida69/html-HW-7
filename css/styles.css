@@ -80,7 +80,7 @@ h2 {
   border-bottom: 1px solid #e0e0e0;
 }
 
-.main-nav {
+.header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -143,7 +143,6 @@ h2 {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url('../images/background-photo.jpg');
   background-repeat: no-repeat;
-  /* background-image: url('../images/background-photo.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-color: rgba(47, 48, 58, 1);
@@ -388,10 +387,10 @@ h2 {
   font-size: 14px;
 }
 
-.nav-list .link {
+.nav-list .nav-link {
   position: relative;
 }
-.nav-list .link::after {
+.nav-list .nav-link::after {
   content: '';
   position: absolute;
   display: flex;
@@ -405,7 +404,7 @@ h2 {
   transition: transform 250ms var(--timing-function);
   transform: scaleX(0);
 }
-.nav-list .link:hover::after {
+.nav-list .nav-link:hover::after {
   /* opacity: 1; */
   transform: scaleX(1);
 }
@@ -459,7 +458,7 @@ h2 {
   margin: 0;
 }
 
-.nav-list .link {
+.nav-list .nav-link {
   display: flex;
   align-items: center;
   margin: 0;
@@ -523,9 +522,7 @@ p {
   line-height: 1.875;
   letter-spacing: 3%;
 }
-.team {
-  background-color: var(--secondary-bg-color);
-}
+
 
 .contacts-list {
   display: flex;
@@ -895,7 +892,7 @@ textarea {
 
 .checkbox:checked + .checkbox-icon {
   background-color: var(--accent-hover-color);
-  background-image: url(../images/Vector\ \(1\).svg);
+  background-image: url(../images/Vector\\(1\).svg);
   background-origin: border-box;
   background-size: contain;
   transition: transform 250ms var(--timing-function);
