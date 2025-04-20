@@ -892,7 +892,7 @@ textarea {
 
 .checkbox:checked + .checkbox-icon {
   background-color: var(--accent-hover-color);
-  background-image: url(../images/Vector\\(1\).svg);
+  background-image: url(../images/Vector\ \(1\).svg);
   background-origin: border-box;
   background-size: contain;
   transition: transform 250ms var(--timing-function);
